@@ -14,7 +14,7 @@ O usuário digita um número e escolhe:
 - A base de origem
 - A base de destino
 
- Exemplo: Converter 101.1 da base binária para decimal.
+ Exemplo: Converter 1011 da base binária para decimal.
 
  Funcionamento Interno
 O código primeiro detecta se o número possui:
