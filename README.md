@@ -81,7 +81,7 @@ def base_para_decimal(num, base):
 Divide numerador e denominador após convertê-los para decimal.
 
  Cálculo entre Bases:
-def calcular(): ...
+def calcular(): 
 Responsável por:
 - Interpretar bases
 - Aplicar operação
