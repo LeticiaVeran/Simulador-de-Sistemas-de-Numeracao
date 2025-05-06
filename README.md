@@ -1,14 +1,14 @@
 
 ## 👓 Análise Técnica e Apresentação do Código
 
-# 🏅 Estrutura Geral🏅
+# 🏅 Estrutura Geral:
 - Código foi escrito em Python, com foco em duas funcionalidades principais:
 - Conversão de números entre bases (binária, octal, decimal e hexadecimal)  
 - Calculadora entre bases (suporta operações entre números em diferentes bases)
 
 **A interface foi feita com Tkinter**, permitindo ao usuário interagir com o programa de forma visual e intuitiva.
 
-# ❗Módulo de Conversão de Bases❗
+# ❗Módulo de Conversão de Bases:
 Entrada do Usuário
 O usuário digita um número e escolhe:
 - A base de origem
@@ -16,19 +16,19 @@ O usuário digita um número e escolhe:
 
  Exemplo: Converter 1011 da base binária para decimal.
 
-# ❗Funcionamento Interno❗
+# ❗Funcionamento Interno:
 O código primeiro detecta se o número possui:
 - Ponto flutuante (.)
 - Sinal negativo (-)
 
- # 👣Passo a passo de conversão👣
+ # 👣Passo a passo de conversão:
 - Se for ponto flutuante: separa parte inteira e fracionária, converte ambas e soma.
 - Tudo é convertido primeiro para decimal usando funções como:
 bin_dec(), octal_dec(), hexa_dec()
 - Depois, converte do decimal para a base desejada com funções como:
 dec_bin(), dec_octal(), dec_hexa()
 
-# 🧮 Módulo da Calculadora 🧮
+# 🧮 Módulo da Calculadora:
 Entrada do Usuário:
 - Número 1 com base
 - Número 2 com base
@@ -37,7 +37,7 @@ Entrada do Usuário:
 
  Exemplo: A5 (hexadecimal) + 1011 (binário) → resultado em octal
 
-# 😎Funcionamento Interno😎
+# 😎Funcionamento Interno:
 - Conversão dos dois números para decimal, respeitando o tipo (inteiro, float, fração).
 - Aplica a operação matemática escolhida:
         if operacao == "+":
@@ -46,7 +46,7 @@ Entrada do Usuário:
 - O resultado é então convertido da base decimal para a base final escolhida.
 O código imprime todos os passos intermediários na interface para que o usuário entenda o que foi feito.
 
-# 🤳🏻Interface Gráfica (Tkinter)🤳🏻
+# 🤳🏻Interface Gráfica (Tkinter):
 A interface contém:
 - Tela inicial com três opções: Conversão, calculadora ou sair
 - As duas primeiras funções abrem sua própria janela e a última fecha o programa.
@@ -56,29 +56,29 @@ A interface contém:
   - Button para iniciar a conversão ou cálculo
   - Text para mostrar o resultado e os passos explicativos
 
-# 🤩Diferenciais da Interface🤩
+# 🤩Diferenciais da Interface:
 - Design simples e direto
 - Foco em acessibilidade e clareza
 - Saída com *feedback explicativo*, não só o resultado final
 
-# ‼️Principais Funções e Lógica‼️
+# ‼️Principais Funções e Lógica:
 Conversão de Bases:
-def bin_dec(num): ...
-def dec_bin(num): ...
-def octal_dec(num): ...
-def dec_octal(num): ...
+- def bin_dec(num): ...
+- def dec_bin(num): ...
+- def octal_dec(num): ...
+- def dec_octal(num): ...
 
-# Cada uma trata:
+# ❗Cada uma trata:
 - Parte inteira
 - Parte fracionária (multiplicação sucessiva ou divisão)
 - Números negativos
 
-# Conversão com Frações:
+# ❗Conversão com Frações:
 def tratar_entrada_decimal(valor):
 def base_para_decimal(num, base):
 Divide numerador e denominador após convertê-los para decimal.
 
-# Cálculo entre Bases:
+# ❗Cálculo entre Bases:
 def calcular(): 
 Responsável por:
 - Interpretar bases
@@ -86,7 +86,7 @@ Responsável por:
 - Converter o resultado para a base final
  Exemplo de Execução
 
-# Entrada:
+# ❗Entrada:
 Número 1: 10111  (Binário)
 Número 2: AF     (Hexadecimal)
 Operação: +
