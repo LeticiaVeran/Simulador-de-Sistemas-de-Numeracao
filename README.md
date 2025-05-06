@@ -1,4 +1,4 @@
-
+🤯
 Análise Técnica e Apresentação do Código
 
  Estrutura Geral
