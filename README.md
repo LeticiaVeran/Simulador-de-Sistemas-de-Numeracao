@@ -1,5 +1,5 @@
-#😊
-#Análise Técnica e Apresentação do Código
+# 😊
+# Análise Técnica e Apresentação do Código
 
  Estrutura Geral
 O código foi escrito em Python, com foco em duas funcionalidades principais:
