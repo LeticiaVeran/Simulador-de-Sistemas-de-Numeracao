@@ -92,18 +92,18 @@ Número 2: AF     (Hexadecimal)
 Operação: +
 Resultado em: Decimal
 
-# 👣 Passos Realizados:👣
+# 👣 Passos Realizados:
 - 1011.1 → Decimal = 11.5
 - A.F → Decimal = 10.9375
 - Soma: 11.5 + 10.9375 = 22.4375
 - Resultado final: 22.4375
 
- # 🕵️‍♀️ Detalhes Técnicos🕵️‍♀️
+ # 🕵️‍♀️ Detalhes Técnicos:
 - Todas as conversões e cálculos são manuais (sem uso de int(num, base)), para garantir controle e permitir explicações passo a passo.
 - Uso de try-except para tratamento de erros básicos (entrada inválida, divisão por zero).
 - Estrutura modular e organizada.
 
-# 🆙 Melhorias Futuras🆙
+# 🆙 Melhorias Futuras:
 - Frações em seu funcionamento amplo (não apenas na calculadora)
 - Suporte a conversões diretas sem passar por decimal
 - Exportar resultado e passos para .txt
@@ -111,7 +111,7 @@ Resultado em: Decimal
 - Tema escuro/claro
 
 
-# 🔚 Conclusão🔚
+# 📌 Conclusão:
 Este projeto tem como objetivo educacional, demonstrando:
 - Como funcionam as conversões entre diferentes bases numéricas
 - Como realizar operações matemáticas com bases distintas
